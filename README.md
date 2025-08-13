@@ -1,4 +1,3 @@
-+++markdown
 # SWARM MISSION BOOTSTRAP  
 *(ROS 2 Humble + MAVROS + PX4 SITL)*  
 
