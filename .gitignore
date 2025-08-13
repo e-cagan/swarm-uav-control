@@ -1,0 +1,62 @@
+# -------------------------
+# ROS 2 / colcon çıktıları
+# -------------------------
+build/
+install/
+log/
+.colcon/
+**/build/
+**/install/
+**/log/
+
+# -------------------------
+# Python artefaktları
+# -------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+dist/
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# -------------------------
+# Geliştirici ortamları
+# -------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# -------------------------
+# OS/Editor geçicileri
+# -------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.cache/
+
+# -------------------------
+# Log / kayıt / veri
+# -------------------------
+*.log
+*.tlog          # QGC telemetry (varsa)
+rosbag2_*       # ros2 bag klasörleri (varsa)
+*.mcap
+*.db3
+
+# -------------------------
+# Çeşitli
+# -------------------------
+.env
+.env.*
+venv/
+.venv/
+env/
+compile_commands.json
